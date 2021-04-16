@@ -37,7 +37,7 @@ class TelaCadastro : AppCompatActivity() {
                     tvCachorro.text = "Cachorro cadastrado com sucesso!!!"
                     ivCachorro.visibility = View.VISIBLE
                 }else{
-                    tvCachorro.text = "Falha ao criar o cachorro ${response.errorBody()!!}"
+                    tvCachorro.text = "Falha ao criar o cachorro"
                 }
             }
 
