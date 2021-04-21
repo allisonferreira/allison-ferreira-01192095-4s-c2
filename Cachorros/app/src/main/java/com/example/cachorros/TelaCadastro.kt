@@ -24,7 +24,7 @@ class TelaCadastro : AppCompatActivity() {
         val ivCachorro: ImageView = findViewById(R.id.iv_cachorro)
         val swIndicado: Switch = findViewById(R.id.sw_indicado)
         val raca = etRaca.text.toString()
-        val preco = etPreco.text.toString().toInt()
+        val preco = etPreco.text.toString().toDouble()
         val indicado = swIndicado.isChecked.toString().toBoolean()
 
         val cachorro = Cachorro(0, raca, preco, indicado)
